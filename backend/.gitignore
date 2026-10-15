@@ -1,0 +1,3 @@
+# Never upload these
+node_modules/
+.env
