@@ -41,14 +41,6 @@
     <div class="progress" id="progress" aria-hidden="true"></div>
     <div class="cursor" id="cursor" aria-hidden="true"></div>
 
-    <!-- Silhouette, used only when images/krittika.png is missing -->
-    <svg width="0" height="0" style="position:absolute" aria-hidden="true">
-        <symbol id="person" viewBox="0 0 200 250">
-            <circle cx="100" cy="72" r="44" />
-            <path d="M8 250c4-74 44-118 92-118s88 44 92 118z" />
-        </symbol>
-    </svg>
-
     <!-- ================= 1. HERO ================= -->
     <header class="hero" id="top">
         <div class="wrap">
@@ -82,14 +74,24 @@
                     <div class="avail"><span class="dot"></span>Ghaziabad, Delhi NCR · Open to internships</div>
                 </div>
 
-                <!-- Your photo: images/krittika.png (background removed PNG works best) -->
-                <div class="portrait">
-                    <div class="photo">
-                        <img src="images/krittika.png" alt="Krittika Nandy" id="myPhoto">
-                        <svg class="fallback" viewBox="0 0 200 250">
-                            <use href="#person" />
-                        </svg>
+                <!-- Skill orbit: --n = number of skills on that ring, --i = position -->
+                <div class="orbit" role="img"
+                    aria-label="Skills: React, Node.js, JavaScript, Python, MongoDB, AWS, OpenCV, Git, HTML and CSS, Generative AI">
+                    <div class="ring r1" style="--n:4" aria-hidden="true">
+                        <span class="sk" style="--i:0"><b><em>React</em></b></span>
+                        <span class="sk" style="--i:1"><b><em>Node.js</em></b></span>
+                        <span class="sk" style="--i:2"><b><em>JavaScript</em></b></span>
+                        <span class="sk" style="--i:3"><b><em>Python</em></b></span>
                     </div>
+                    <div class="ring r2" style="--n:6" aria-hidden="true">
+                        <span class="sk" style="--i:0"><b><em>MongoDB</em></b></span>
+                        <span class="sk" style="--i:1"><b><em>AWS</em></b></span>
+                        <span class="sk" style="--i:2"><b><em>OpenCV</em></b></span>
+                        <span class="sk" style="--i:3"><b><em>Git</em></b></span>
+                        <span class="sk" style="--i:4"><b><em>HTML &amp; CSS</em></b></span>
+                        <span class="sk" style="--i:5"><b><em>Generative AI</em></b></span>
+                    </div>
+                    <div class="core" aria-hidden="true"><span>KN</span></div>
                 </div>
 
                 <div class="stats">

@@ -10,7 +10,7 @@ Full-Stack Web Developer and B.Tech CSE (AI & ML) student at ABES Engineering Co
 
 ## ✨ Features
 
-- Animated hero section with my photo
+- Animated hero with a rotating skill orbit
 - Project case-study pop-ups
 - Certificate filter and viewer
 - Journey timeline
@@ -32,7 +32,7 @@ krittika-portfolio/
 ├── index.html    # page content
 ├── css/          # styles and animations
 ├── js/           # interactivity, terminal, forms
-├── images/       # photo, project and certificate images
+├── images/       # project and certificate images
 ├── resume/       # downloadable resume (PDF)
 └── backend/      # Express API (contact, counters)
 ```

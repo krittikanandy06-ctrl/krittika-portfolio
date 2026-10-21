@@ -72,11 +72,6 @@ fitBigWord();
 window.addEventListener('resize', fitBigWord);
 if (document.fonts) document.fonts.ready.then(fitBigWord);
 
-// ---------- 3. Photo fallback ----------
-const photo = $('#myPhoto');
-photo.addEventListener('error', () => photo.parentElement.classList.add('missing'));
-if (photo.complete && photo.naturalWidth === 0) photo.parentElement.classList.add('missing');
-
 // ---------- 4. Stats count up ----------
 if (!reduceMotion) {
   $$('[data-count]').forEach(el => {
